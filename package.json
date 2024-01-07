@@ -1,0 +1,25 @@
+{
+  "name": "meu-portfolio",
+  "version": "1.0.0",
+  "description": "Mini Portfolio using JavaScript and CSS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite", 
+    "build": "vite build" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/seu-portfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "css",
+    "web development"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.11"
+  }
+}

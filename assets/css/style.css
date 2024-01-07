@@ -5,6 +5,21 @@
 /**
  * copyright 2022 codewithsadee
  */
+ #changeLanguage {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #333; /* Cor do texto, ajuste conforme necessário */
+  border: 2px solid #333; /* Cor da borda, ajuste conforme necessário */
+  border-radius: 50%; /* Faz com que o botão seja redondo */
+  text-decoration: none; /* Remove sublinhado do link */
+  transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave */
+}
+
+#changeLanguage:hover {
+  background-color: #333; /* Cor de fundo ao passar o mouse */
+  color: white; /* Cor do texto ao passar o mouse */
+}
 
 
 
@@ -21,7 +36,7 @@
    */
 
   --raisin-black: hsla(231, 10%, 14%, 1);
-  --roman-silver: hsla(229, 10%, 57%, 1);
+  --roman-silver: rgb(142, 149, 175);
   --eerie-black: hsla(228, 9%, 10%, 1);
   --black: hsla(0, 0%, 0%, 1);
   --white: hsla(0, 0%, 100%, 1);

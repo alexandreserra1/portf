@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Alexandre Serra - Web & App Developer</title>
+  <meta name="title" content="Alexandre Serra Web & App Developer">
+  <meta name="description" content="This is a personal portfolio html template">
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/favicon-P4yovajU.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/assets/ale45-AnCWoLR_.jpg">
+
+  <script type="module" crossorigin src="/assets/index-2NV7M2Nb.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-WAh7KsAb.css">
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="data:image/svg+xml,%3csvg%20width='132'%20height='24'%20viewBox='0%200%20132%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M6.83027%2017.9881V12.88H21.3957C21.9795%2012.88%2022.4659%2012.7924%2022.8551%2012.6173C23.2638%2012.4227%2023.4681%2012.0238%2023.4681%2011.4205C23.4681%2010.7978%2023.2638%2010.3989%2022.8551%2010.2238C22.4659%2010.0486%2021.9795%209.96108%2021.3957%209.96108H7.2973V22.8043H0V4.12324H20.2573C21.7168%204.12324%2023.0789%204.23027%2024.3438%204.44433C25.6281%204.63892%2026.747%204.99892%2027.7005%205.52433C28.6541%206.04973%2029.4032%206.78919%2029.9481%207.7427C30.493%208.69622%2030.7654%209.92216%2030.7654%2011.4205C30.7654%2012.9189%2030.493%2014.1059%2029.9481%2014.9816C29.4032%2015.8573%2028.6541%2016.5092%2027.7005%2016.9373C26.747%2017.3654%2025.6281%2017.6476%2024.3438%2017.7838C23.0789%2017.92%2021.7168%2017.9881%2020.2573%2017.9881H6.83027Z'%20fill='white'/%3e%3cpath%20d='M32.9475%209.3773H51.4535V13.7557H32.9475V9.3773ZM44.7108%202.66378H51.4535V7.33405H47.6297C46.8513%207.3146%2046.2481%207.35351%2045.82%207.45081C45.4113%207.54811%2045.1194%207.7427%2044.9443%208.03459C44.7886%208.32649%2044.7108%208.77405%2044.7108%209.3773V22.8043H37.7054V7.91784C37.7054%206.75027%2037.9194%205.7773%2038.3475%204.99892C38.7951%204.22054%2039.5248%203.63676%2040.5367%203.24757C41.5681%202.85838%2042.9594%202.66378%2044.7108%202.66378Z'%20fill='white'/%3e%3cpath%20d='M66.9187%2023.2422C63.8247%2023.2422%2061.2463%2022.9892%2059.1836%2022.4832C57.1404%2021.9773%2055.6031%2021.1697%2054.5717%2020.0605C53.5598%2018.9514%2053.0539%2017.4919%2053.0539%2015.6822C53.0539%2013.8724%2053.5598%2012.413%2054.5717%2011.3038C55.6031%2010.1751%2057.1404%209.35784%2059.1836%208.85189C61.2463%208.32649%2063.8247%208.06379%2066.9187%208.06379C69.9933%208.06379%2072.5425%208.32649%2074.5663%208.85189C76.6095%209.35784%2078.1371%2010.1751%2079.149%2011.3038C80.1609%2012.413%2080.6668%2013.8724%2080.6668%2015.6822C80.6668%2017.4919%2080.1609%2018.9514%2079.149%2020.0605C78.1371%2021.1697%2076.6095%2021.9773%2074.5663%2022.4832C72.5425%2022.9892%2069.9933%2023.2422%2066.9187%2023.2422ZM66.9187%2019.0097C68.3587%2019.0097%2069.5652%2018.893%2070.5382%2018.6595C71.5112%2018.4065%2072.2506%2018.0368%2072.7566%2017.5503C73.2625%2017.0443%2073.5155%2016.4216%2073.5155%2015.6822C73.5155%2014.9427%2073.2625%2014.32%2072.7566%2013.8141C72.2701%2013.3081%2071.5403%2012.9286%2070.5674%2012.6757C69.5944%2012.4227%2068.3782%2012.2962%2066.9187%2012.2962C65.4787%2012.2962%2064.2528%2012.4227%2063.2409%2012.6757C62.2485%2012.9286%2061.4895%2013.3081%2060.9641%2013.8141C60.4582%2014.3005%2060.2052%2014.9232%2060.2052%2015.6822C60.2052%2016.4216%2060.4582%2017.0443%2060.9641%2017.5503C61.4701%2018.0368%2062.2193%2018.4065%2063.2117%2018.6595C64.2236%2018.893%2065.4593%2019.0097%2066.9187%2019.0097Z'%20fill='white'/%3e%3cpath%20d='M83.4289%202.66378H90.4343V22.8043H83.4289V2.66378Z'%20fill='white'/%3e%3cpath%20d='M101.215%201V5.37838H93.8013V1H101.215ZM94.0056%208.50162H101.011V22.8043H94.0056V8.50162Z'%20fill='white'/%3e%3cpath%20d='M117.715%2023.2422C114.621%2023.2422%20112.042%2022.9892%20109.98%2022.4832C107.936%2021.9773%20106.399%2021.1697%20105.368%2020.0605C104.356%2018.9514%20103.85%2017.4919%20103.85%2015.6822C103.85%2013.8724%20104.356%2012.413%20105.368%2011.3038C106.399%2010.1751%20107.936%209.35784%20109.98%208.85189C112.042%208.32649%20114.621%208.06379%20117.715%208.06379C120.789%208.06379%20123.339%208.32649%20125.362%208.85189C127.406%209.35784%20128.933%2010.1751%20129.945%2011.3038C130.957%2012.413%20131.463%2013.8724%20131.463%2015.6822C131.463%2017.4919%20130.957%2018.9514%20129.945%2020.0605C128.933%2021.1697%20127.406%2021.9773%20125.362%2022.4832C123.339%2022.9892%20120.789%2023.2422%20117.715%2023.2422ZM117.715%2019.0097C119.155%2019.0097%20120.361%2018.893%20121.334%2018.6595C122.307%2018.4065%20123.047%2018.0368%20123.553%2017.5503C124.059%2017.0443%20124.312%2016.4216%20124.312%2015.6822C124.312%2014.9427%20124.059%2014.32%20123.553%2013.8141C123.066%2013.3081%20122.336%2012.9286%20121.363%2012.6757C120.39%2012.4227%20119.174%2012.2962%20117.715%2012.2962C116.275%2012.2962%20115.049%2012.4227%20114.037%2012.6757C113.044%2012.9286%20112.286%2013.3081%20111.76%2013.8141C111.254%2014.3005%20111.001%2014.9232%20111.001%2015.6822C111.001%2016.4216%20111.254%2017.0443%20111.76%2017.5503C112.266%2018.0368%20113.015%2018.4065%20114.008%2018.6595C115.02%2018.893%20116.255%2019.0097%20117.715%2019.0097Z'%20fill='white'/%3e%3c/svg%3e" width="170" height="40" alt="Pfolio home">
+        <a href="index.portuguese.html" class="btn" id="changeLanguage">pt-br</a>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#service-label" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#portfolio-label" class="navbar-link">Portfolio</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Alexandre Serra</h1>
+
+            <p class="hero-subtitle">
+              Front-end developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="/assets/alepb-PhotoRoom-UH3ZUBiD.png" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I'm Alexandre Serra, a creative Front-End developer dedicated to enhancing the digital experience. My
+              goal is to make a difference in the web world by crafting engaging and functional products. I have
+              expertise in JavaScript, React, Node.js, CSS, and Tailwind CSS, and I'm always eager to learn and apply
+              new technologies to create even more amazing experiences..
+            </p>
+
+            <a href="/assets/images/Profile-3.pdf" class="btn has-before">
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+            <section class="btn has-before">
+              <a href="https://www.linkedin.com/in/alexandreapserra/" target="blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+
+
+
+              <section class="btn has-before">
+                <a href="https://github.com/alexandreserra1" target="blank">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Services That I Provide
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Services</h2>
+            </div>
+
+            <p class="section-text">
+              Offering web development services and crafting modern, responsive interfaces, I'm dedicated to
+              innovation, ready to turn your ideas into incredible and functional digital experiences.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Website Design</h3>
+
+                  <p class="card-text">
+                    I transform ideas into exceptional visual experiences. Whether it's to showcase your brand, sell
+                    products, or tell your story, my focus is on creating impactful designs that captivate and convert.
+                    Elevating the online presence to the next leve </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">SEO Marketing</h3>
+
+                  <p class="card-text">
+                    Elevating your digital presence! I specialize in Web Design, creating visually stunning websites
+                    optimized for SEO. Stand out online, reach a broader audience, and boost the success of your
+                    product. </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">E-Commerce</h3>
+
+                  <p class="card-text">
+                    Crafting and developing successful online stores. Prioritizing functionality and aesthetics to
+                    enhance user experience and drive conversions. Committed to turning E-commerce goals into reality,
+                    delivering a compelling and engaging online presence. </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Graphic Design</h3>
+
+                  <p class="card-text">
+                    I turn concepts into incredible visual experiences. If you're looking for designs that captivate,
+                    innovate, and tell stories, I'm here to bring your vision to life. </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Digital Marketing</h3>
+
+                  <p class="card-text">
+                    Every pixel tells a story, and I'm here to craft narratives that captivate. From concept to
+                    creation, I turn ideas into visual wonders, making your brand stand out in the digital landscape
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                My journey as a Front-End developer is an unwavering quest for digital excellence. Over the years, I've
+                delved deep into the realms of JavaScript, React, Node.js, CSS, and Tailwind CSS. My passion lies in
+                crafting visually immersive experiences that surpass user expectations.
+              </p>
+
+              <p class="section-text">
+                I invite you to be part of this journey. Explore my portfolio, where each line of code tells a story of
+                innovation and creation.
+              </p>
+
+              <a href="#" class="btn has-before">alexandreapserra@hotmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">JavaScript</p>
+
+                    <data class="progress-value" value="90">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">CSS</p>
+
+                    <data class="progress-value" value="80">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">React JS</p>
+
+                    <data class="progress-value" value="95">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">HTML</p>
+
+                    <data class="progress-value" value="85">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Node.js</p>
+
+                    <data class="progress-value" value="85">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">TailwindCSS</p>
+
+                    <data class="progress-value" value="85">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Git</p>
+
+                    <data class="progress-value" value="85">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Typescript</p>
+
+                    <data class="progress-value" value="85">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Next.js</p>
+
+                    <data class="progress-value" value="85">100%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 100%;"></div>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            Each project reflects my commitment to excellence in Front-End development.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/ecommerc-jmM0p5NI.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">E-Commerce</h3>
+
+                  <p class="card-text">Website / Development</p>
+                </div>
+
+                <a href="https://ecommerce-1-jade.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/wildlife-XUElq2-w.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Travel Agency</h3>
+
+                  <p class="card-text">Website / Development</p>
+                </div>
+
+                <a href="https://magenta-piroshki-54bc1c.netlify.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/elegant.shop-TR__q1gG.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Cart Shop</h3>
+
+                  <p class="card-text">UX Design / Website</p>
+                </div>
+
+                <a href="https://elegant-shop.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/placepicker (2)-AS460qIY.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Placepicker - Website</h3>
+
+                  <p class="card-text">Website / Select Place to travel</p>
+                </div>
+
+                <a href="https://placepicker-ten.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/quiz1-6XHvfUaB.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Game Quiz</h3>
+
+                  <p class="card-text">Website/Game</p>
+                </div>
+
+                <a href="https://quiz-react-six-beta.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/game.seconds-WUQLvOK9.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Seconds-Game</h3>
+
+                  <p class="card-text">Website/Game</p>
+                </div>
+
+                <a href="https://game-seconds.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/investimento-hobWd_u1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Investiment</h3>
+
+                  <p class="card-text">Investment Website</p>
+                </div>
+
+                <a href="https://investiment-calculator-brown.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/assets/tic-tac-dfjsIaS6.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Tic-tac-toe</h3>
+
+                  <p class="card-text">Website/Game</p>
+                </div>
+
+                <a href="https://tic-tac-toe-project-pi.vercel.app/" class="layer-link" target="blank"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <!--  <section class="section blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">Recent Articles</p>
+
+          <h2 class="h2 section-title">Latest News</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-1.jpg" width="700" height="470" loading="lazy"
+                    alt="Get Started With Tiktok Ads." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-24">
+                    <span class="span text-lg">24</span>
+                    June 2022
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Get Started With Tiktok Ads.</h3>
+
+                    <p class="card-text">
+                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
+                      ornare.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="470" loading="lazy"
+                    alt="UX in Ecommerce – 5 things to avoid." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-27">
+                    <span class="span text-lg">27</span>
+                    June 2022
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">UX in Ecommerce – 5 things to avoid.</h3>
+
+                    <p class="card-text">
+                      Phasellus et lacus suscipit congue nis in the miss mine one miss the drana risus in tincidunt
+                      ornare.
+                    </p>
+
+                    <a href="#" class="btn has-before">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+-->
+
+
+
+
+      <!-- 
+    - #FOOTER
+  -->
+
+      <footer class="footer">
+        <div class="container">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4 footer-list-title">Get in touch</p>
+            </li>
+
+            <li>
+              <a href="mailto:alexandreapserra@hotmail.com" class="footer-link">alexandreapserra@hotmail.com </a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4 footer-list-title">Locations</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Florianópolis — Santa Catarina</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/alexandreapserra/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/alexandreserra1" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/alexandreapserra/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </footer>
+
+
+
+
+
+      <!-- 
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+
+      <!-- 
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
